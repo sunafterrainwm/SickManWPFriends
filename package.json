@@ -1,0 +1,30 @@
+{
+  "name": "sickmanwpfriends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "min": "node task/uglify.js",
+    "babel": "node task/babel.js",
+    "build": "npm run babel && npm run min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunny00217wm/SickManWPFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunny00217wm/SickManWPFriends/issues"
+  },
+  "homepage": "https://github.com/sunny00217wm/SickManWPFriends#readme",
+  "dependencies": {
+    "uglify-js": "^3.12.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "eslint": "^7.20.0"
+  }
+}

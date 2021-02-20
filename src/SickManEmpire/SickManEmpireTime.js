@@ -5,7 +5,7 @@
  * Copyright 2021 sunny00217wm
  * Released under the GPLv3
  */
-var SickManEmpireTime = ( function( ) {
+var SickManEmpireTime = ( function () {
 	"use strict";
 
 	var SickManEmpireTimeObj = {};

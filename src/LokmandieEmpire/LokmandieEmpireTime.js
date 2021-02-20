@@ -5,7 +5,7 @@
  * Copyright 2021 sunny00217wm
  * Released under the GPLv3
  */
-var LokmandieEmpireTime = ( function( ) {
+var LokmandieEmpireTime = ( function () {
 	"use strict";
 
 	var LokmandieEmpireTimeObj = {};
