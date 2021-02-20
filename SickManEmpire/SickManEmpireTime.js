@@ -1,18 +1,18 @@
 /*!
- * LokmandieEmpireTime 1.0.0
- * https://github.com/sunny00217wm/LokmandieEmpireTime
+ * SickManEmpireTime 1.0.0
+ * https://github.com/sunny00217wm/SickManEmpireTime
  *
  * Copyright 2021 sunny00217wm
  * Released under the GPLv3
  */
-var LokmandieEmpireTime = ( function( ) {
+var SickManEmpireTime = ( function( ) {
 	"use strict";
 
-	var LokmandieEmpireTimeObj = {};
+	var SickManEmpireTimeObj = {};
 
-	var EmpireFirst = LokmandieEmpireTimeObj.EmpireFirst = new Date('2019-7-4 16:00:00 GMT');
+	var EmpireFirst = SickManEmpireTimeObj.EmpireFirst = new Date('2019-7-4 16:00:00 GMT');
 
-	var getYear = LokmandieEmpireTimeObj.getYear = function (date) {
+	var getYear = SickManEmpireTimeObj.getYear = function (date) {
 		var time = new Date(date || Date.now()), count;
 		if (time.toString() == "Invalid Date") {
 			throw new TypeError('Couldn\'t parse argument date.');
@@ -30,7 +30,7 @@ var LokmandieEmpireTime = ( function( ) {
 		return number < 10 ? '0' + number : number;
 	}
 
-	var FromYearGetBaseTime = LokmandieEmpireTimeObj.FromYearGetBaseTime = function ( year, utc ) {
+	var FromYearGetBaseTime = SickManEmpireTimeObj.FromYearGetBaseTime = function ( year, utc ) {
 		if ( typeof year !== 'number' && isNaN( year ) ) {
 			throw new TypeError('Couldn\'t parse argument year.');
 		}
@@ -48,7 +48,7 @@ var LokmandieEmpireTime = ( function( ) {
 		}
 	};
 
-	var getMonth = LokmandieEmpireTimeObj.getMonth = function (date) {
+	var getMonth = SickManEmpireTimeObj.getMonth = function (date) {
 		var time = new Date(date || Date.now()), count;
 		if (time.toString() == "Invalid Date") {
 			throw new TypeError('Couldn\'t parse argument date.');
@@ -65,11 +65,11 @@ var LokmandieEmpireTime = ( function( ) {
 		}
 	};
 
-	var LokmandieEmpireTime = function (date) {
-		return new LokmandieEmpireTime.prototype.init(date);
+	var SickManEmpireTime = function (date) {
+		return new SickManEmpireTime.prototype.init(date);
 	};
 
-	LokmandieEmpireTime.prototype = {
+	SickManEmpireTime.prototype = {
 		init: function (date) {
 			var time = new Date(date || Date.now());
 			if (time.toString() == "Invalid Date") {
@@ -85,7 +85,7 @@ var LokmandieEmpireTime = ( function( ) {
 		}
 	};
 
-	LokmandieEmpireTime.prototype.init.prototype = LokmandieEmpireTime.prototype;
+	SickManEmpireTime.prototype.init.prototype = SickManEmpireTime.prototype;
 
 	var getResult = function ( argYear, argDate, utc ) {
 		var date = new Date( '2019-07-04T16:00:00+00:00' ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
@@ -108,16 +108,16 @@ var LokmandieEmpireTime = ( function( ) {
 		return $ret;
 	};
 
-	LokmandieEmpireTimeObj.table = {
+	SickManEmpireTimeObj.table = {
 		toConsole: function ( argYear, argDate, utc ) {
 			console.table( getResult( argYear, argDate, utc ) );
 		},
 		toTxt: toTxt
 	};
 
-	for (var $key in LokmandieEmpireTimeObj) {
-		LokmandieEmpireTime[$key] = LokmandieEmpireTimeObj[$key];
+	for (var $key in SickManEmpireTimeObj) {
+		SickManEmpireTime[$key] = SickManEmpireTimeObj[$key];
 	}
 
-	return LokmandieEmpireTime;
+	return SickManEmpireTime;
 } ) ();
