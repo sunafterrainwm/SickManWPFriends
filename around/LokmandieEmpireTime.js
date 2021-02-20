@@ -1,5 +1,5 @@
 /*!
- * LokmandieEmpireTime 1.0.0
+ * LokmandieWPFriends－LokmandieEmpireTime 1.0.0
  * https://github.com/sunny00217wm/LokmandieEmpireTime
  *
  * Copyright 2021 sunny00217wm
@@ -10,14 +10,14 @@ var LokmandieEmpireTime = ( function( ) {
 
 	var LokmandieEmpireTimeObj = {};
 
-	var EmpireFirst = LokmandieEmpireTimeObj.EmpireFirst = new Date('2019-7-4 16:00:00 GMT');
+	var EmpireFirst = LokmandieEmpireTimeObj.EmpireFirst = new Date('2021-2-17 16:00:00 GMT');
 
 	var getYear = LokmandieEmpireTimeObj.getYear = function (date) {
 		var time = new Date(date || Date.now()), count;
 		if (time.toString() == "Invalid Date") {
 			throw new TypeError('Couldn\'t parse argument date.');
 		}
-		count = (time.getTime() - EmpireFirst.getTime()) / (12 * 60 * 60 * 1000);
+		count = (time.getTime() - EmpireFirst.getTime()) / (24 * 60 * 60 * 1000);
 		if (time > EmpireFirst) {
 			return Math.floor(count) + 1;
 		}
@@ -34,7 +34,7 @@ var LokmandieEmpireTime = ( function( ) {
 		if ( typeof year !== 'number' && isNaN( year ) ) {
 			throw new TypeError('Couldn\'t parse argument year.');
 		}
-		var BaseTime = new Date( EmpireFirst.getTime() + ( ( year - 1 ) * 12 * 60 * 60 * 1000 ) + 60 * 60 * 1000 );
+		var BaseTime = new Date( EmpireFirst.getTime() + ( ( year - 1 ) * 24 * 60 * 60 * 1000 ) + 60 * 60 * 1000 );
 		if ( utc ) { // 取得UTC時間，有原生方法可以用
 			return BaseTime.getUTCFullYear() + '-' + add_leading_zero( BaseTime.getUTCMonth() + 1 ) + '-' + add_leading_zero( BaseTime.getUTCDate() ) + ' ' + add_leading_zero(BaseTime.getUTCHours()) + ':00 (UTC)';
 		} else { // 檢測時區是不是+8區
@@ -54,10 +54,8 @@ var LokmandieEmpireTime = ( function( ) {
 			throw new TypeError('Couldn\'t parse argument date.');
 		}
 		count = time.getUTCHours();
-		if (count > 15) {
-			return count - 15;
-		}
-		else if (count <= 3) {
+		count = count > 12 ? count - 12 : count;
+		if (count <= 3) {
 			return count + 9;
 		}
 		else {
@@ -88,7 +86,7 @@ var LokmandieEmpireTime = ( function( ) {
 	LokmandieEmpireTime.prototype.init.prototype = LokmandieEmpireTime.prototype;
 
 	var getResult = function ( argYear, argDate, utc ) {
-		var date = new Date( '2019-07-04T16:00:00+00:00' ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
+		var date = new Date( '2021-2-17 16:00:00 GMT' ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
 		var Year = argDate ? getYear( argDate ) : argYear || getYear() ;
 		for ( var year = 1; year <= Year; year++ ) {
 			$ret[ year ] = {
