@@ -88,15 +88,15 @@ class SickManEmpireTime {
 
 	protected static $time;
 
-    public function __construcr ( int $timestamp = 0 ) {
+	public function __construcr ( int $timestamp = 0 ) {
 		self::$time = $timestamp;
 	}
 
-    public function getThisYear () {
-        return SickManEmpireTimeObj["getYear"]( self::$time );
-    }
-    
+	public function getThisYear () {
+		return SickManEmpireTimeObj["getYear"]( self::$time );
+	}
+	
 	public function getThisMonth () {
-        return SickManEmpireTimeObj["getMonth"]( self::$time );
-    }
+		return SickManEmpireTimeObj["getMonth"]( self::$time );
+	}
 }
