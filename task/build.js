@@ -1,13 +1,7 @@
 var fs = require('fs'),
-	UglifyJS = require("uglify-js"),
-	options = {
-		mangle: true,
-		output: {
-   		    beautify: false,
-    	}
-	},
-	files = require('../src/list.js'),
-	ret;
+	files = require('../src/list.js');
+
+console.log('[task/build.js] Try to use babel to transform files.');
 
 function merge ( file, code ) {
 	return `/*!
@@ -58,24 +52,16 @@ return ${ file.output };
 `;
 }
 
-console.log('[task/uglify.js] Try to use uglify-JS to transform files.');
 files.forEach( function ( file ) {
-	console.log(`[task/uglify.js] transform ${ file.module } ${ file.version } at src/${ file.src } ...`)
+	console.log(`[task/build.js] build ${ file.module } ${ file.version } at src/${ file.src } ...`)
 	try {
-		ret = UglifyJS.minify( {
-			"core.js": merge( file, fs.readFileSync( `src/${ file.src }`, "utf8") )
-		}, options );
-		fs.writeFileSync(
-			`dist/${file.module}.min.js`,
-			`/* SickManWPFriends-${ file.module } ${ file.version } | https://github.com/sunny00217wm/SickManWPFriends | GPLv3 */\n${ ret.code }`, "utf8"
-		);	
-		console.log(`[task/uglify.js] transform ${ file.module } ${ file.version } success.`);
+		fs.writeFileSync( `dist/${file.module}.js`, merge( file, fs.readFileSync( `src/${file.src}`, "utf8") ), "utf8");	
+		console.log(`[task/build.js] build ${ file.module } ${ file.version } success.`);
+		file.src = `dist/${file.module}.js`;
 	} catch ( e ) {
-		console.error(`[task/uglify.js] fail to transform src/${file.src}, error:`);
+		console.error(`[task/build.js] fail to build src/${file.src}, error:`);
 		throw e;
 	}
 } );
 
-console.log(`[task/uglify.js] done.`);
-
-UglifyJS.minify()
+console.log(`[task/build.js] done.`);
