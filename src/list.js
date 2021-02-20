@@ -1,7 +1,7 @@
 module.exports = [
 	{
 		"module": "SickManEmpireTime",
-		"version": "1.0.0",
+		"version": "1.0.1",
 		"src": "SickManEmpireTime.js",
 		"output": "SickManEmpireTime"
 	}

@@ -1,11 +1,12 @@
 <?php
 /*!
- * SickManEmpireTime 1.0.0
- * https://github.com/sunny00217wm/SickManEmpireTime
+ * SickManEmpireTime 1.0.1
+ * https://github.com/sunny00217wm/SickManWPFriends
  *
  * Copyright 2021 sunny00217wm
  * Released under the GPLv3
  */
+
 date_default_timezone_set( 'Asia/Taipei' );
 
 class SickManEmpireTimeObj {
