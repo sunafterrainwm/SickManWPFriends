@@ -12,7 +12,7 @@
    width="791"
    height="769"
    viewBox="0 0 791 769"
-   sodipodi:docname="smet1194-6.svg"
+   sodipodi:docname="smet1189-1.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata295">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,7 +47,8 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g297" />
+     inkscape:current-layer="g297"
+     inkscape:document-rotation="0" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -176,31 +177,5 @@
          x="475.52643"
          y="492.56268"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:DFPBangBangW5-B5;-inkscape-font-specification:DFPBangBangW5-B5;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-opacity:1">病夫國</tspan></text>
-    <path
-       id="path467"
-       style="fill:#0000ff"
-       d="m 533.41446,411.90822 c -6.22286,0.36547 -13.538,0.48703 -24.2462,0.0695 2.98356,8.77119 7.90475,7.22826 27.79008,2.3545 -0.31766,0.81226 10.38985,-2.9807 -3.54388,-2.424 z"
-       sodipodi:nodetypes="cccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;stroke-width:0.5"
-       x="498.83191"
-       y="367.10565"
-       id="text357-9"><tspan
-         sodipodi:role="line"
-         x="498.83191"
-         y="367.10565"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:DFPBangBangW5-B5;-inkscape-font-specification:DFPBangBangW5-B5;fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-opacity:1"
-         id="tspan359-5">宸楓</tspan><tspan
-         sodipodi:role="line"
-         x="498.83191"
-         y="400.79773"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:DFPBangBangW5-B5;-inkscape-font-specification:DFPBangBangW5-B5;fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-opacity:1"
-         id="tspan494">飛地</tspan><tspan
-         sodipodi:role="line"
-         x="498.83191"
-         y="434.1311"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:DFPBangBangW5-B5;-inkscape-font-specification:DFPBangBangW5-B5;fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-opacity:1"
-         id="tspan492" /></text>
   </g>
 </svg>
