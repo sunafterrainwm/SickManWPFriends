@@ -52,7 +52,7 @@ class SickManEmpireTimeObj {
 				'year' => 0
 			)
 		);
-		$Year = $argTimeStamp ? getYear( $argTimeStamp ) : $argYear || getYear();
+		$Year = $argYear ? $argYear : $this->getYear( $argTimeStamp );
 		for ( $year = 1; $year <= $Year; $year++ ) {
 			$ret[ $year ] = array(
 				'earth' => $this->FromYearGetBaseTime( $year, $utc ),
@@ -93,10 +93,10 @@ class SickManEmpireTime {
 	}
 
 	public function getThisYear () {
-		return SickManEmpireTimeObj["getYear"]( self::$time );
+		return $SickManEmpireTimeObj["getYear"]( self::$time );
 	}
 	
 	public function getThisMonth () {
-		return SickManEmpireTimeObj["getMonth"]( self::$time );
+		return $SickManEmpireTimeObj["getMonth"]( self::$time );
 	}
 }
