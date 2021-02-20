@@ -1,5 +1,5 @@
 /*!
- * LokmandieWPFriends－LokmandieEmpireTime 1.0.0
+ * SickManWPFriends－LokmandieEmpireTime 1.0.0
  * https://github.com/sunny00217wm/LokmandieEmpireTime
  *
  * Copyright 2021 sunny00217wm
