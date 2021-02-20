@@ -10,9 +10,9 @@ date_default_timezone_set( 'Asia/Taipei' );
 
 class SickManEmpireTimeObj {
 	protected $EmpireFirst = 1562256000; // 2019-7-4 16:00:00 GMT
-	public function getYear ( number $timestamp ) {
+	public function getYear ( int $timestamp ) {
 		$timestamp = $timestamp || time();
-		$count = ( $timestamp - $EmpireFirst ) / (12 * 60 * 60 * 1000);
+		$count = ( $timestamp - $this->$EmpireFirst ) / (12 * 60 * 60 * 1000);
 		if ( $count > 0 ) {
 			return floor( $count ) + 1;
 		}
@@ -21,8 +21,8 @@ class SickManEmpireTimeObj {
 		}
 	}
 
-	public function FromYearGetBaseTime ( number $year, boolean $utc ) {
-		$BaseTime = $EmpireFirst + ( ( $year - 1 ) * 12 * 60 * 60 * 1000 ) + 60 * 60 * 1000;
+	public function FromYearGetBaseTime ( int $year, bool $utc ) {
+		$BaseTime = $this->$EmpireFirst + ( ( $year - 1 ) * 12 * 60 * 60 * 1000 ) + 60 * 60 * 1000;
 		if ( $utc ) {
 			return date( 'Y-m-d H:i (T)', ( $BaseTime - 8 * 60 * 60 * 1000 ) );
 		} else {
@@ -30,7 +30,7 @@ class SickManEmpireTimeObj {
 		}
 	}
 
-	public function getMonth ( number $timestamp ) {
+	public function getMonth ( int $timestamp ) {
 		$timestamp = $timestamp || time();
 		$count = date( 'H', ( $timestamp - 8 * 60 * 60 * 1000 ) );
 		if ( $count > 15 ) {
@@ -44,15 +44,15 @@ class SickManEmpireTimeObj {
 		}
 	}
 
-	protected function getYearTableResult ( int $argYear = 0, int $argTimeSatmp = 0, bool $utc = false ) {
-		$date = $EmpireFirst;
+	protected function getYearTableResult ( int $argYear = 0, int $argTimeStamp = 0, bool $utc = false ) {
+		$date = $this->$EmpireFirst;
 		$ret = array(
 			array(
 				'earth' => ( $utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)" ),
 				'year' => 0
 			)
 		);
-		$Year = $argDate ? getYear( $argDate ) : $argYear || getYear();
+		$Year = $argTimeStamp ? getYear( $argTimeStamp ) : $argYear || getYear();
 		for ( $year = 1; $year <= $Year; $year++ ) {
 			$ret[ $year ] = array(
 				'earth' => $this->FromYearGetBaseTime( $year, $utc ),
@@ -88,7 +88,7 @@ class SickManEmpireTime {
 
 	protected static $time;
 
-    public function __construcr ( number $timestamp ) {
+    public function __construcr ( int $timestamp = 0 ) {
 		self::$time = $timestamp;
 	}
 
