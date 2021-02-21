@@ -6,7 +6,7 @@
   "scripts": {
     "min": "node task/uglify.js",
     "babel": "node task/babel.js",
-    "build": "npm install && node task/build.js && npm run babel && npm run min"
+    "build": "npm install && node task/build.js"
   },
   "repository": {
     "type": "git",

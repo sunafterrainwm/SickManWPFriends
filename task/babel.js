@@ -37,7 +37,7 @@ function merge ( file, code ) {
    
    var	_${ file.output } = window.${ file.output };
    
-   ${ file.output }.noConflict = function( deep ) {
+   ${ file.output }.noConflict = function() {
 	   if ( window.${ file.output } === ${ file.output } ) {
 		   window.${ file.output } = _${ file.output };
 	   }

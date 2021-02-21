@@ -25,17 +25,10 @@ var FromYearGetBaseTime = SickManEmpireTimeObj.FromYearGetBaseTime = function ( 
 		throw new TypeError('Couldn\'t parse argument year.');
 	}
 	var BaseTime = new Date( EmpireFirst.getTime() + ( ( year - 1 ) * 12 * 60 * 60 * 1000 ) + 60 * 60 * 1000 );
-	if ( utc ) { // 取得UTC時間，有原生方法可以用
-		return BaseTime.getUTCFullYear() + '-' + add_leading_zero( BaseTime.getUTCMonth() + 1 ) + '-' + add_leading_zero( BaseTime.getUTCDate() ) + ' ' + add_leading_zero(BaseTime.getUTCHours()) + ':00 (UTC)';
-	} else { // 檢測時區是不是+8區
-		var utc_offset = -1 * new Date().getTimezoneOffset() / 60;
-		if ( utc_offset === 8 ) { // 是，有原生方法可以用
-			return BaseTime.getFullYear() + '-' + add_leading_zero( BaseTime.getMonth() + 1 ) + '-' + add_leading_zero( BaseTime.getDate() ) + ' ' + add_leading_zero(BaseTime.getHours()) + ':00 (UTC+8)';
-		} else { // 把UTC時間指定為+8區時間，再輸出
-			BaseTime = new Date( BaseTime.getTime() + 8 * 60 * 60 * 1000 );
-			return BaseTime.getUTCFullYear() + '-' + add_leading_zero( BaseTime.getUTCMonth() + 1 ) + '-' + add_leading_zero( BaseTime.getUTCDate() ) + ' ' + add_leading_zero(BaseTime.getUTCHours()) + ':00 (UTC+8)';
-		}
+	if ( !utc ) { // 取得UTC時間，有原生方法可以用
+		BaseTime = new Date( BaseTime.getTime() + 8 * 60 * 60 * 1000 );
 	}
+	return `${BaseTime.getUTCFullYear()}-${add_leading_zero(BaseTime.getUTCMonth() + 1)}-${add_leading_zero(BaseTime.getUTCDate())} ${add_leading_zero(BaseTime.getUTCHours())}:00 (UTC)`;
 };
 
 var getMonth = SickManEmpireTimeObj.getMonth = function (date) {
@@ -93,7 +86,7 @@ var getResult = function ( argYear, argDate, utc ) {
 var toTxt = function ( argYear, argDate, utc ) {
 	var $ret = '', result = getResult( argYear, argDate, utc );
 	for ( var i = 0; i < result.length; i++ ) {
-		$ret += 'earth: ' + result[ i ].earth + ', year: ' + result[ i ].year + '\n';
+		$ret += `earth: ${ result[ i ].earth }, year: ${ result[ i ].year }\n`;
 	}
 	return $ret;
 };

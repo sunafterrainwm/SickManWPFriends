@@ -1,0 +1,793 @@
+[
+	{
+		"number": "0",
+		"coding": "smgod",
+		"name": "SickManWP",
+		"alias": ["SickManWP", "维基病夫", "維基病夫", "病夫神"],
+		"addToList": {
+			"oldid": -1,
+			"timestamp": "2016-03-31T06:26:00+00"
+		},
+		"info": -1,
+		"other": "加入時間戳為維基病夫加入維基百科的日期"
+	},
+	{
+		"number": "1",
+		"coding": "smmt-1",
+		"name": "MeritTim",
+		"alias": ["MeritTim", "SmallTim", "高祖", "文皇帝", "高祖文皇帝"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-05-14T16:44:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": -1,
+			"end": -1
+		}
+	},
+	{
+		"number": "2",
+		"coding": "smmt-2",
+		"name": "Danielidk",
+		"alias": ["Danielidk", "烈祖", "武皇帝", "烈祖武皇帝"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-05-14T22:38:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": -1,
+			"end": -1
+		},
+	},
+	{
+		"number": "3",
+		"coding": "smmt-3",
+		"name": "FrankD666蝦仁飯",
+		"alias": ["FrankD666蝦仁飯", "世祖", "肃皇帝", "肅皇帝", "世祖肃皇帝", "世祖肅皇帝"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-05-14T22:38:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": -1,
+			"end": -1
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "4",
+		"coding": "smmt-4",
+		"name": "Emojiwiki",
+		"alias": ["成祖", "安皇帝", "成祖安皇帝"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-07-17T04:18:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "5",
+		"coding": "smmt-5",
+		"name": "500000000006城",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-10-23T07:19:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "6",
+		"coding": "smmt-6",
+		"name": "Borschts",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-12-28T08:12:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "7",
+		"coding": "smmt-7",
+		"name": "飯飯國王",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-12-29T11:50:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "8",
+		"coding": "smmt-8",
+		"name": "UsFTBu3TR",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2019-12-30T05:34:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "9",
+		"coding": "smmt-9",
+		"name": "Star021231",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-01-19T04:24:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "10",
+		"coding": "smmt-10",
+		"name": "SCP基金會O5-1",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-02-16T16:56:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "11",
+		"coding": "smmt-11",
+		"name": "Cryberghost",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-02-20T00:44:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "12",
+		"coding": "smmt-12",
+		"name": "LHCN",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-03-14T15:33:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "13",
+		"coding": "smy8-1",
+		"name": "YOWOT868",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-03-15T03:44:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "14",
+		"coding": "smy8-2",
+		"name": "Xavier Ariad",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-03-17T08:55:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "15",
+		"coding": "smy8-3",
+		"name": "13568zhu",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-04-19T19:08:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "16",
+		"coding": "smy8-4",
+		"name": "SecurityXP",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-04-23T13:20:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "17",
+		"coding": "smy8-5",
+		"name": "Wener-6022",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-04-26T15:47:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "18",
+		"coding": "smy8-6",
+		"name": "Yolopertz",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-05-08T22:38:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "19",
+		"coding": "smy8-7",
+		"name": "Streetdeck",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-05-09T05:39:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "20",
+		"coding": "smy8-8",
+		"name": "Kitabc12345",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-05-09T06:21:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "21",
+		"coding": "smy8-9",
+		"name": "XinuGod",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-05-17T05:41:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "22",
+		"coding": "smy8-10",
+		"name": "一片枫叶",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-05-17T13:51:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "23",
+		"coding": "smy8-11",
+		"name": "Edit_Mr.",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-06-01T12:04:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "24",
+		"coding": "smy8-12",
+		"name": "StarryHome",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-06-04T12:26:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "25",
+		"coding": "smy8-13",
+		"name": "Googol19980904",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-06-25T14:35:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "26",
+		"coding": "smcy-1",
+		"name": "Clover_Yan",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-07-08T06:23:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "27",
+		"coding": "smcy-2",
+		"name": "Wangshi3",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-07-08T11:38:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "28",
+		"coding": "smcy-3",
+		"name": "Herobrine",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-07-28T11:39:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "29",
+		"coding": "smcy-4",
+		"name": "Lokmandie\u003C譚凱風\u003E",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-01T09:28:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "30",
+		"coding": "smcy-5",
+		"name": "Zh9567",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-04T07:58:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "31",
+		"coding": "smcy-6",
+		"name": "小猴子0921",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-09T14:33:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "32",
+		"coding": "smcy-7",
+		"name": "Timmyboger",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-15T17:35:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "33",
+		"coding": "smcy-8",
+		"name": "Cyril_Yoshi",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-21T06:15:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "34",
+		"coding": "smcy-9",
+		"name": "GeForce610",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-21T07:35:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "35",
+		"coding": "smcy-10",
+		"name": "Wiok",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-29T03:50:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "36",
+		"coding": "smcy-11",
+		"name": "許可雋",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-08-30T07:19:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "37",
+		"coding": "smcy-12",
+		"name": "I am a people",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-09-16T12:29:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "38",
+		"coding": "sms-1",
+		"name": "Sunny00217",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"oldidtimestamp": "",
+			"timestamp": "2020-10-02T00:00:00+00:00"
+			
+		},
+		"info": {
+			"born": []
+		},
+		"other": "時間剛好為00:00的原因是用了[[Help:解析器函數|解析器函數]，參見[[Special:Diff/62083653]]"
+	},
+	{
+		"number": "39",
+		"coding": "sms-2",
+		"name": "月梦播客楼猫",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-10-03T13:48:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "40",
+		"coding": "sms-3",
+		"name": "Lifegpc",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-10-14T10:37:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "16-2",
+		"coding": "sma-1",
+		"name": "Arronwan",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-10-21T11:45:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "19-2",
+		"coding": "sma-2",
+		"name": "Lantx",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-11-21T09:24:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "41",
+		"coding": "sma-3",
+		"name": "TurboHKG",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-13T12:42:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "42",
+		"coding": "sma-4",
+		"name": "Matttest",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-26T07:05:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "43",
+		"coding": "sma-5",
+		"name": "ZhuofanWu",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-26T12:38:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "45",
+		"coding": "sma-6",
+		"name": "Makowai",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-29T02:47:00+00:00"
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "46",
+		"coding": "sma-7",
+		"name": "卡達",
+		"alias": [],
+		"addToList": {
+			"oldid": "2020-12-29T03:25:00+00:00",
+			"timestamp": ""
+		},
+		"info": {
+			"born": []
+		}
+	},
+	{
+		"number": "47",
+		"coding": "sma-8",
+		"name": "Yining Chen",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-29T12:34:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1088, 9],
+			"end": [1158, 2]
+		},
+		"other": "最後一個透過編輯[[User:SickManWP/維基好友]]加入的，日後全部都以申請制，時間為病夫指訂，參見[[Special:PermaLink/63790761]]的編輯摘要"
+	},
+	{
+		"number": "45-2",
+		"coding": "sma-9",
+		"name": "ZJiekai",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-01-26T03:29:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1158, 2],
+			"end": [1224, 5]
+		}
+	},
+	{
+		"number": "48",
+		"coding": "sma-10",
+		"name": "Chamsumc123",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-01-18T15:56:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1224, 5],
+			"end": [1257, 4]
+		}
+	},
+	{
+		"number": "49",
+		"coding": "sma-11",
+		"name": "Pan93412",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-01-18T15:56:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1257, 4],
+			"end": [1314, 11]
+		}
+	},
+	{
+		"number": "50",
+		"coding": "sma-12",
+		"name": "傅玉松",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-01-18T15:56:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1314, 11],
+			"end": [1352, 2]
+		}
+	},
+	{
+		"number": "51",
+		"coding": "sma-13",
+		"name": "林未釋",
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-01-26T05:28:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1352, 2],
+			"end": [1362, 1]
+		}
+	},
+	{
+		"number": "52",
+		"coding": "sma-14",
+		"name": "Streetdeck\u003C二世\u003E",
+		"tag": ["-2"],
+		"alias": ["Streetdeck二世"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-02-01T04:12:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1362, 1],
+			"end": [1383, 10]
+		}
+	},
+	{
+		"number": "44",
+		"coding": "sma-15",
+		"name": "TrutH_SuiTeR",
+		"tag": ["-2", "warning"],
+		"alias": [],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2020-12-23T15:17:00+00:00",
+			"warning": true
+		},
+		"info": {
+			"born": [],
+			"start": [1383, 10],
+			"end": [1397, 3]
+		},
+		"other": "其為病夫在[[Special:Diff/63391203]加入，且當時還沒有42和43，當43加入後病夫就忘了登記了，故將其在位期間指定為42加入後直到45加入前"
+	},
+	{
+		"number": "53",
+		"coding": "sma-16",
+		"name": "30000lightyears",
+		"alias": ["30000lightyears"],
+		"addToList": {
+			"oldid": 0,
+			"timestamp": "2021-02-18T05:56:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"start": [1397, 3],
+			"end": [1428, 8]
+		}
+	},
+	{
+		"number": "54",
+		"coding": "sma-17",
+		"name": "Hvn0413",
+		"alias": ["Hvn0413", "敬宗", "章皇帝", "敬宗章皇帝"],
+		"addToList": {
+			"oldid": 64413679,
+			"timestamp": "2021-02-21T05:57:00+00:00"
+		},
+		"info": {
+			"born": [],
+			"born": [],
+			"start": [1428, 8, 20],
+			"end": [1452, 10, 2]
+		}
+	}
+]
