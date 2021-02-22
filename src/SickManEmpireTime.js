@@ -25,10 +25,10 @@ var FromYearGetBaseTime = SickManEmpireTimeObj.FromYearGetBaseTime = function ( 
 		throw new TypeError('Couldn\'t parse argument year.');
 	}
 	var BaseTime = new Date( EmpireFirst.getTime() + ( ( year - 1 ) * 12 * 60 * 60 * 1000 ) + 60 * 60 * 1000 );
-	if ( !utc ) { // 取得UTC時間，有原生方法可以用
+	if ( !utc ) {
 		BaseTime = new Date( BaseTime.getTime() + 8 * 60 * 60 * 1000 );
 	}
-	return `${BaseTime.getUTCFullYear()}-${add_leading_zero(BaseTime.getUTCMonth() + 1)}-${add_leading_zero(BaseTime.getUTCDate())} ${add_leading_zero(BaseTime.getUTCHours())}:00 (UTC)`;
+	return `${BaseTime.getUTCFullYear()}-${add_leading_zero(BaseTime.getUTCMonth() + 1)}-${add_leading_zero(BaseTime.getUTCDate())} ${add_leading_zero(BaseTime.getUTCHours())}:00 (UTC${ !utc && '+8' || ''})`;
 };
 
 var getMonth = SickManEmpireTimeObj.getMonth = function (date) {
@@ -71,7 +71,7 @@ SickManEmpireTime.prototype = {
 SickManEmpireTime.prototype.init.prototype = SickManEmpireTime.prototype;
 
 var getResult = function ( argYear, argDate, utc ) {
-	var date = new Date( '2019-07-04T16:00:00+00:00' ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
+	var date = new Date( EmpireFirst ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
 	var Year = argDate ? getYear( argDate ) : argYear || getYear() ;
 	for ( var year = 1; year <= Year; year++ ) {
 		$ret[ year ] = {
