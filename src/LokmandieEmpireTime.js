@@ -1,13 +1,13 @@
 var LokmandieEmpireTimeObj = {};
 
-var EmpireFirst = LokmandieEmpireTimeObj.EmpireFirst = new Date('2021-2-18 06:00:00 GMT');
+var EmpireFirst = LokmandieEmpireTimeObj.EmpireFirst = new Date('2021-2-18 12:00:00 GMT');
 
 var getYear = LokmandieEmpireTimeObj.getYear = function (date) {
     var time = new Date(date || Date.now()), count;
     if (time.toString() == "Invalid Date") {
         throw new TypeError('Couldn\'t parse argument date.');
     }
-    count = (time.getTime() - EmpireFirst.getTime()) / (24 * 60 * 60 * 1000);
+    count = (time.getTime() - EmpireFirst.getTime()) / (12 * 60 * 60 * 1000);
     if (time > EmpireFirst) {
         return Math.floor(count) + 1;
     }
@@ -38,13 +38,15 @@ var getMonth = LokmandieEmpireTimeObj.getMonth = function (date) {
         throw new TypeError('Couldn\'t parse argument date.');
     }
     count = time.getUTCHours();
-    count = count > 12 ? count - 12 : count;
-    if (count <= 3) {
-        return count + 9;
-    }
-    else {
-        return count - 3;
-    }
+	if (count > 15) {
+		return count - 15;
+	}
+	else if (count <= 3) {
+		return count + 9;
+	}
+	else {
+		return count - 3;
+	}
 };
 
 var LokmandieEmpireTime = function (date) {
@@ -70,7 +72,7 @@ LokmandieEmpireTime.prototype = {
 LokmandieEmpireTime.prototype.init.prototype = LokmandieEmpireTime.prototype;
 
 var getResult = function ( argYear, argDate, utc ) {
-    var date = new Date( EmpireFirst ), $ret = [ { 'earth': utc ? "2019-07-04 09:00 (UTC)" : "2019-07-04 13:00 (UTC+8)", 'year': 0 } ];
+    var date = new Date( EmpireFirst ), $ret = [ { 'earth': utc ? "2021-02-18 12:00 (UTC)" : "2021-02-18 20:00 (UTC+8)", 'year': 0 } ];
     var Year = argDate ? getYear( argDate ) : argYear || getYear() ;
     for ( var year = 1; year <= Year; year++ ) {
         $ret[ year ] = {
