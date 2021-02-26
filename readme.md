@@ -1,0 +1,1 @@
+[![](https://data.jsdelivr.com/v1/package/gh/sunny00217wm/SickManWPFriends/badge)](https://www.jsdelivr.com/package/gh/sunny00217wm/SickManWPFriends)
