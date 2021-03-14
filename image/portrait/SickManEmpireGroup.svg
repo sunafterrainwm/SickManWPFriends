@@ -14,8 +14,8 @@
    viewBox="0 0 512 512"
    style="enable-background:new 0 0 512 512;"
    xml:space="preserve"
-   sodipodi:docname="SickManEmpireGroup.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="SickManEmpireGroup.svg">
 
 <metadata
    id="metadata"><rdf:RDF>
@@ -34,20 +34,8 @@
    objecttolerance="10"
    gridtolerance="10"
    guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1920"
-   inkscape:window-height="1001"
    id="namedview375"
-   showgrid="false"
-   inkscape:zoom="1.4863281"
-   inkscape:cx="256"
-   inkscape:cy="256"
-   inkscape:window-x="-9"
-   inkscape:window-y="-9"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1"
-   inkscape:document-rotation="0" />
+   showgrid="false" />
 <style
    type="text/css"
    id="style2">
